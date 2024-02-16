@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="index.html"><h2>KAB<span>MOD</span></h2></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times hamburger" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="./blog.html">BLOGS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars hamburger" onclick="showMenu()"></i>
+       </nav> 
+      <h1>Our Services</h1>
+    </section>
+
+    <!-- services-->
+    <section class="course">
+        <h1>Services We Offer</h1>
+        <p>We offer a wide array of comprehensive construction services </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Construction</h3>
+                <p>
+                    our commitment to excellence extends to a comprehensive array of construction services designed to meet the diverse needs of our clients. With a passion for diverse range top-quality building materials, ensuring durability and longevity for your projects.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Renovation</h3>
+                <p>
+                    Whether you're looking to breathe new life into your existing space or envisioning a complete transformation, our team is here to make it a reality.with quality materials and finishes. We guide you through the selection process, ensuring that every element contributes to the overall aesthetic of the renovated space.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>General Contractor</h3>
+                <p>
+                    Welcome to [Your Company Name], your trusted partner for high-quality building materials. As a seasoned general contractor, we take pride in providing a comprehensive range of construction essentials, ensuring that your projects stand strong and resilient.
+                </p>
+            </div>
+        </div>
+    </section>
+<!-- our facilities -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nihil </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./styles/imges/pexels-maria-orlova-4946389 (1).jpg" alt="">
+                <h3>Sustainability Initiatives</h3>
+                <p>As stewards of the environment, we integrate sustainable practices into our facilities management processes. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="./styles/imges/a.jpabout (3).jpg" alt="">
+                <h3>Material Storage and Handling</h3>
+                <p>We maintain spacious storage facilities for safely storing and managing construction materials, equipment, and supplies. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="./styles/imges/worker-cuts-iron-with-tool (2).jpg" alt="">
+                <h3>Safety and Compliance Infrastructure</h3>
+                <p>Safety is our top priority, and our facilities reflect our unwavering commitment to creating a safe and secure work environment.</p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>With a passion for quality craftsmanship and a commitment to excellence, we specialize in providing top-notch construction <br>services and premium building materials to clients across Nigeria</p>
+        <div class="icons">
+            <img src="./styles/imges/logos--linkedin-icon.svg" alt="">
+            <img src="./styles/imges/ri--facebook-fill.svg" alt="">
+            <img src="./styles/imges/uil--instagram.svg" alt="">
+            <img src="./styles/imges/arcticons--x-twitter (2).svg" alt="">
+        </div>
+        <p>Made by <i class="fa fa-hea"></i> Olayinka</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

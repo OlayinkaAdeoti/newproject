@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="index.html"><h2>KAB<span>MOD</span></h2></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times hamburger" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./services.html">SERVICES</a></li>
+                <li><a href="./blog.html">BLOGS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars hamburger" onclick="showMenu()"></i>
+       </nav> 
+      <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> Quality craftsmanship and excellence</h1>
+                <p>
+                    At KABMOD, we take pride in our rich history of delivering exceptional projects and supplying high-quality materials that meet the diverse needs of our clients. From residential developments to commercial constructions, we bring expertise, reliability, and innovation to every endeavor.ensuring timely project delivery, and upholding the highest standards of quality and safety. <br>
+                    Whether you're embarking on a new construction project or in need of top-grade building materials, KABMOD is here to support you every step of the way
+                </p>
+                <a class="hero-btn red-btn" href="./contact.html">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./styles/imges/girl.jpg" alt="">
+            </div>
+        </div>
+     
+      </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>With a passion for quality craftsmanship and a commitment to excellence, we specialize in providing top-notch construction <br>services and premium building materials to clients across Nigeria</p>
+        <div class="icons">
+            <img src="./styles/imges/logos--linkedin-icon.svg" alt="">
+            <img src="./styles/imges/ri--facebook-fill.svg" alt="">
+            <img src="./styles/imges/uil--instagram.svg" alt="">
+            <img src="./styles/imges/arcticons--x-twitter (2).svg" alt="">
+        </div>
+        <p>Made by <i class="fa fa-hea"></i> Olayinka</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

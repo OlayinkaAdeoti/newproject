@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="index.html"><h2>KAB<span>MOD</span></h2></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times hamburger" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./services.html">SERVICES</a></li>
+                <li><a href="">BLOGS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars hamburger" onclick="showMenu()"></i>
+       </nav> 
+      <h1>Our Certifications & Project Management Programs</h1>
+    </section>
+
+    <!-- blog content -->
+         <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="./styles/imges/happy-executive.jpg" alt="">
+                    <h2>Our Certification & Program for 2024</h2>
+                    <p>At KABMOD, we are committed to maintaining the highest standards of excellence in our industry. As part of this commitment, we have developed a comprehensive certification and training program for 2024 to enhance the skills, knowledge, and capabilities of our team members. Here's an overview of our training initiatives:.</p>
+                    <br>
+                    <p>1. Skills Enhancement Workshops: We understand that continuous learning is essential for professional growth and development. Throughout the year, we will organize skills enhancement workshops and seminars to provide our employees with opportunities to refine their skills, learn new techniques, and stay abreast of emerging trends in the construction industry. Topics may include:</p>
+
+                       <p>Advanced Construction Techniques</p> 
+                       <p>Sustainable Building Practices</p> 
+                       <p>Digital Construction Technologies</p> 
+                        <p>Safety and Risk Management</p>
+                       <p> Leadership and Communication Skills</p>
+                    
+                    <br>
+                    <p>2. Mentorship and Coaching: We believe in the power of mentorship and coaching to nurture talent and foster professional growth. In 2024, we will establish a mentorship program where experienced employees can share their knowledge, insights, and best practices with newer team members. Through one-on-one guidance and support, we aim to accelerate the development and success of our employees.
+                    </p>
+                    <br>
+                    <p>3. Internal Training Programs: In addition to external certifications and workshops, we will offer internal training programs tailored to the specific needs of our company and projects. These programs will cover various aspects of construction management, technical skills, and project execution methodologies, ensuring that our team members are equipped with the knowledge and tools necessary to excel in their roles.
+                    </p>
+
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comments"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENTS</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Construction Projects</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Project Management</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Safety and Regulations</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>Company Updates</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Sustainable Construction</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Construction Techniques</span>
+                        <span>26</span>
+                    </div>
+                </div>
+             </section>
+            </div>
+           
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>With a passion for quality craftsmanship and a commitment to excellence, we specialize in providing top-notch construction <br>services and premium building materials to clients across Nigeria</p>
+        <div class="icons">
+            <img src="./styles/imges/logos--linkedin-icon.svg" alt="">
+            <img src="./styles/imges/ri--facebook-fill.svg" alt="">
+            <img src="./styles/imges/uil--instagram.svg" alt="">
+            <img src="./styles/imges/arcticons--x-twitter (2).svg" alt="">
+        </div>
+        <p>Made by <i class="fa fa-hea"></i> Olayinka</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
